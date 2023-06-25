@@ -1,0 +1,212 @@
+t:
+    settings:"Settings"
+	mouse:"Mouse"
+    username:"Username"
+    number:"number"
+    oops:"Oops"
+    copy:"Copy"
+    message:"message"
+
+    choices:"Choices"
+        on:"On"
+        off:"Off"
+        disable:"Disable"
+        hold:"Hold"
+        press:"Press"
+        deny:"Deny"
+        scale:"Scale"
+        toggle:"Toggle"
+        accept:"Accept"
+        background:"Background"
+        shadow:"Shadow"
+        style:"Style"
+        text:"Text"
+        amount:"Amount"
+
+	color:"Color"
+		magenta:"Magenta"
+		pink:"Pink"
+		green:"Green"
+		light_gray:"Light gray"
+		black:"Black"
+		yellow:"Yellow"
+		chroma:"Chroma"
+		cyan:"Cyan"
+		orange:"Orange"
+		red:"Red"
+		rainbow:"Rainbow"
+		gray:"Gray"
+		blue:"Blue"
+		white:"White"
+		dark_gray:"Dark gray"
+
+	screenshot:"Screenshot"
+		open_folder:"Open folder"
+		delete:"Delete"
+		get_link:"Get link"
+
+	playtime:"Played time"
+		total:"Total:"
+		week:"This week:"
+		day:"Day"
+			short:
+				sunday:"S"
+				saturday:"S"
+				tuesday:"T"
+				wednesday:"W"
+				thursday:"T"
+				friday:"F"
+				monday:"M"
+
+	accountchange:
+		connection_microsoft:"Connecting with Microsoft..."
+		waiting_microsoft:"Waiting for Microsoft authentication..."
+		checking_minecraft_account:"Checking Minecraft account..."
+
+	gui:
+		mode:"Mode"
+		error:"Error"
+		salwyrr_settings:
+			sky:
+				time:"Time"
+				speed:"Speed"
+			notification:
+				example:
+					ask:"Do you want another example ?"
+					title:"§6Another §fexample !"
+			description:
+				boss_bar:"Boss Bar style"
+				reach_display:"Display reach distance"
+				block_overlay:"Customize block overlay"
+				motion_blur:"Motion blur effect, to add fluidity"
+				particle:"Combat particles style"
+				scoreboard:"Scoreboard display"
+				keymod:"Display interactions with keyboard and mouse"
+				item_physics:"Dropped items style"
+				sky:"Sky style"
+				potionhud:"Potions effect display"
+				fps:"Display frames by seconds counter"
+				crosshair:"Change crosshair style"
+				armorhud:"Armor durability display"
+				compass:"Direction display"
+				chat:"Chat style"
+				tnt:"TnT countdown style"
+				sword_block:"Game animations settings"
+				zoom:"Optifine zoom settings"
+				movements:"Display movements information"
+				performances:"Game performances settings"
+			category:
+				boss_bar:"Boss Bar"
+				reach_display:"Reach Display"
+				block_overlay:"Block Overlay"
+				motion_blur:"Motion Blur"
+				particle:"Particle Mod"
+				scoreboard:"Scoreboard"
+				keymod:"KeyMod"
+				toggle_sprint:"Toggle Sprint"
+				toggle_sneak:"Toggle Sneak"
+				item_physics:"Item Physics"
+				sky:"Better Sky"
+				potionhud:"Potion HUD"
+				fps:"FPS Display"
+				crosshair:"Crosshair"
+				armorhud:"Armor HUD"
+				compass:"Direction HUD"
+				chat:"Chat"
+				tnt:"Tag TnT"
+				sword_block:"1.7.10 animations"
+				zoom:"Zoom"
+				movements:"Movement status"
+				performances:"Performances"
+		multiplayer:
+			account:
+				premium_type:"Premium"
+				add:"Add"
+				select_account:"Select an account"
+				premium:"Premium Account"
+				how_it_works:"How it works?"
+				change:"Account change"
+				connected_in:"Connected in"
+				connect_to_your_account:"Connect to your Minecraft account"
+		autologin:
+			complete_login:"Press [tab] to complete"
+			random_password:"Press [tab] to generate a secure password"
+		main_menu:
+			shop:"Shop"
+				emoji:"🛒"
+			client_settings:"Client"
+				emoji:"⚙"
+			skins:"Skins"
+				emoji:"✨"
+			add_ons:"Add-ons"
+				emoji:"➕"
+
+	account:
+		missing_password:"Missing password."
+		wait:"Wait "
+		invalid_free_account:"Invalid free account."
+		second_unit:"s"
+		account_disconnected:"Account disconnected, please reconnect"
+
+	notifications:
+		screenshot:
+			saved:"§aScreenshot saved"
+			open:"Open screenshot settings"
+		funcraft:
+			friend:
+				title:"§aFriend§r request:§6"
+			team:
+				title:"§eTeam§r request:§6"
+			game_over:
+				description:"§aRestart a party ?"
+				title:"§fGameOver !"
+
+    add_ons:
+        creator:
+            sendmessageblock:
+                inputs:
+                    message:
+                        description:"The text wich will be display"
+                name:"Send message"
+                description:"Make the player send a message to the server/world chat"
+
+            forblock:
+                inputs:
+                    variable:
+                        name:"variable"
+                        description:"Number variable"
+                    start:
+                        name:"start"
+                        description:"Specify the first number"
+                    step:
+                        name:"step"
+                        description:"Select by how many the variable will increase at each loop"
+                name:"For"
+                description:"Run the following code with a variable wich go from the given first number (included) to the given last number (included)"
+
+            displaymessageblock:
+                inputs:
+                    message:
+                        description:"The text wich will be send"
+                name:"Display message"
+                description:"Add a message in the chat, visible by the player only"
+
+            whileblock:
+                name:"While"
+                description:"Run the following code while the specified condition is true"
+
+            ifblock:
+                name:"If"
+                description:"Run the following code only if the specified condition is true"
+
+            elseblock:
+                name:"Else"
+                description:"Run the following code only if the previous "if" block's condition is false"
+
+            elseifblock:
+                inputs:
+                    condition:
+                        name:"condition"
+                        description:"Specify the condition"
+                name:"Else if"
+                description:"Run the following code only if the previous "if" block's condition is false and the specified condition is true"

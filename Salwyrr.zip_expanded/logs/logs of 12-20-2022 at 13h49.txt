@@ -1,0 +1,111 @@
+Completely ignored arguments: [--salwyrr, salwyrr, --minecraftversion, 1.8.9]
+[13:49:26] [Client thread/INFO]: Setting user: DefaultPlayer
+[13:49:30] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[13:49:30] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[13:49:30] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
+[13:49:31] [Client thread/INFO]: [OptiFine] OptiFine_1.8.9_HD_U_M5
+[13:49:31] [Client thread/INFO]: [OptiFine] OS: Windows 8.1 (amd64) version 6.3
+[13:49:31] [Client thread/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[13:49:31] [Client thread/INFO]: [OptiFine] OpenGL: NVIDIA GeForce GT 1030/PCIe/SSE2, version 4.6.0 NVIDIA 527.56, NVIDIA Corporation
+[13:49:31] [Client thread/INFO]: [OptiFine] Maximum texture size: 32768x32768
+[13:49:31] [Client thread/INFO]: [Shaders] Vendor:  NVIDIA Corporation
+[13:49:31] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[13:49:31] [Client thread/INFO]: [Shaders] Load shaders configuration.
+[13:49:31] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[13:49:31] [Client thread/INFO]: Reloading ResourceManager: Default
+Saves loaded in 0.447s
+[13:49:31] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[13:49:31] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[13:49:31] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
+
+[13:49:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[SalwyrrClient] Starting
+[13:49:35] [Thread-4/INFO]: OpenAL initialized.
+[13:49:35] [Sound Library Loader/INFO]: Sound engine started
+[API] Client connected
+[Salwyrr] Loading textures/salwyrr/font/default.properties
+[Salwyrr] Loading textures/salwyrr/font/default.properties
+[SalwyrrClient] Loading translation
+[SalwyrrClient] Loading resource
+[SalwyrrClient] Starting Discord Rich Presence
+[SalwyrrClient] Starting event
+[13:49:36] [Client thread/INFO]: Loading library 'LinkAPI' from: C:\Users\BALTAP~1.O\AppData\Local\Temp\MumbleLink6746507449355647159native
+[13:49:36] [Client thread/INFO]: loaded and active
+Loaded mod: salwyrr.performances
+Loaded mod: salwyrr.animations
+Loaded mod: salwyrr.cps
+Loaded mod: salwyrr.keystroke
+Loaded mod: salwyrr.particles
+Loaded mod: salwyrr.color
+Loaded mod: salwyrr.reach_display
+Loaded mod: salwyrr.fps_display
+Loaded mod: salwyrr.crosshair
+Loaded mod: salwyrr.direction_hud
+Loaded mod: salwyrr.items_physic
+Loaded mod: salwyrr.motion_blur
+Loaded mod: salwyrr.scoreboard
+Loaded mod: salwyrr.sky
+Loaded mod: salwyrr.armor_hud
+Loaded mod: salwyrr.potion_hud
+Loaded mod: salwyrr.block_overlay
+Loaded mod: salwyrr.chat
+Loaded mod: salwyrr.boss_bar
+Loaded mod: salwyrr.tnt_tag
+Loaded mod: salwyrr.movements
+Loaded mod: salwyrr.nametag
+Loaded mod: salwyrr.zoom
+Loaded mod: salwyrr.perspective
+Loaded mod: salwyrr.time_display
+Loaded mod: salwyrr.uptime
+Loaded mod: salwyrr.global
+Loaded mod: salwyrr.replay
+Loaded mod: salwyrr.timer
+Loaded mod: salwyrr.ping_display
+Loaded mod: salwyrr.coordinates_display
+Loaded mod: salwyrr.color_saturation
+Loaded mod: salwyrr.hypixel
+Loaded mod: salwyrr.global_movable
+Loaded mod: salwyrr.auto_translate
+Loaded mod: salwyrr.hit_color
+Loaded mod: salwyrr.notifications
+Loaded mod: salwyrr.onecube.lobby
+Loaded mod: salwyrr.onecube.jump
+Loaded mod: salwyrr.onecube.bedwars
+[SalwyrrClient] Updating data
+java.net.MalformedURLException: no protocol: onecube
+	at java.net.URL.<init>(URL.java:586)
+	at java.net.URL.<init>(URL.java:483)
+	at java.net.URL.<init>(URL.java:432)
+	at fr.salwyrr.client.gui.framework.ImageResolver.getImage(Unknown Source)
+	at fr.salwyrr.client.gui.framework.elements.components.ElementImage.getImageInfos(Unknown Source)
+	at fr.salwyrr.client.gui.framework.elements.components.ElementImage.lllIIIIIlll(Unknown Source)
+	at lIIlllIlI.lIlIlIllllI(ElementBase.java:597)
+	at lIIlllIlI.lIlIlIIllII(ElementBase.java:143)
+	at lIIlllIlI.lIllIIIIIII(ElementBase.java:882)
+	at lIIlllIlI.lIlIllllllI(ElementBase.java:870)
+	at fr.salwyrr.client.servers.onecube.CustomServerGui.lIlIlIIllIl(Unknown Source)
+	at lIIlllIlI.lIlIlIIllII(ElementBase.java:141)
+	at fr.salwyrr.client.gui.framework.SalwyrrGui.initGui(Unknown Source)
+	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:552)
+	at net.minecraft.client.gui.GuiScreen.onResize(GuiScreen.java:780)
+	at fr.salwyrr.client.servers.onecube.OneCubeLobby.onGuiOpen(Unknown Source)
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java)
+	at net.minecraft.client.gui.GuiMainMenu$1.lIlIlIIllIl(GuiMainMenu.java:73)
+	at lIIlllIlI.lIlIlIIllII(ElementBase.java:141)
+	at fr.salwyrr.client.gui.framework.SalwyrrGui.initGui(Unknown Source)
+	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:552)
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:994)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:569)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.salwyrr.client.Main.executeMain(Unknown Source)
+	at com.salwyrr.client.Main.run(Unknown Source)
+	at com.salwyrr.client.Main.main(Unknown Source)
+[Salwyrr] Loading textures/salwyrr/font/default.properties
+[13:49:37] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[13:49:37] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[13:50:07] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler

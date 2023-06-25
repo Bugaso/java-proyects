@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/Programa4_Ejercicio4/src/Ejercicio4/perritoguauguau.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Ejercicio4.perritoguauguau"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Programa4_Ejercicio4"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Programa4_Ejercicio4"/>
+</launchConfiguration>

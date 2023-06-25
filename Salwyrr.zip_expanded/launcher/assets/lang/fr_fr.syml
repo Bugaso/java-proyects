@@ -1,0 +1,345 @@
+t:
+
+    discord:
+        select_account:Sélectionnez un compte à lier à §9Discord
+        get_code:Obtenir le code de liaison
+        linked_to:Lié à
+        join:Rejoindre notre Discord
+        command:Vous pouvez utiliser cette commande sur n'importe quel salon d'un Discord officiel du Salwyrr Laucher
+
+    playtime:Temps de jeu
+        week:Cette semaine :
+        total:Total :
+        day:
+            short:
+                monday:L
+                tuesday:M
+                wednesday:M
+                thursday:J
+                friday:V
+                saturday:S
+                sunday:D
+
+    connection:
+        error:Erreur de connexion
+        restart:reconnexion...
+
+    progress:
+        salwyrr_initialize:Salwyrr Launcher: §7initialisation
+
+    mouse:Souris
+
+    screen:
+        get_link:Obtenir le lien
+        open_folder:Ouvrir le dossier
+        delete:Supprimer
+
+    notifications:
+        screenshot:
+            saved:§aCapture d'écran enregistrée
+            open:Afficher les paramètres
+        funcraft:
+            friend:
+                title:Demande d'§aami§r:§6
+            team:
+                title:Demande de §egroupe§r:§6
+            game_over:
+                title:§fPartie terminée !
+                description:§aRelancer une partie ?
+        autologin:
+            toggle:§aVoulez vous activer l'AutoLogin ?
+            update:§aVoulez vous mettre à jour l'AutoLogin ?
+            login:§aAutoLogin effectué !
+
+    gui:
+        copy:Copié
+        mail:Adresse mail
+        pseudo:Pseudo
+        mode:Mode
+        help:Aide
+        name:nom
+        value:valeur
+        duration:durée
+        level:niveau
+        message:message
+        width:longueur
+        height:largeur
+        rotation:rotation
+        scale:taille
+        text:texte
+        number:nombre
+        by:par
+        in:dans
+        of:de
+        welcome:Bienvenue
+        error:Erreur
+        soon:Bientôt...
+        empty:Vide
+        oops:Oups
+
+        autologin:
+            random_password:Appuyez sur [tab] pour générer un mot de passe sécurisé
+            complete_login:Appuyez sur [tab] pour compléter le login
+
+        input:
+            password:Mot de passe
+
+        button:
+            return:Retour
+            configure:Configurer
+            style:Style
+            scale:Taille
+            toggle:Activer
+            position_x:Position X
+            position_y:Position Y
+            buy:Acheter
+            cancel:Annuler
+            submit:Soumettre
+            done:Terminer
+            accept:Accepter
+            deny:Refuser
+            quit:Quitter
+            delete:Supprimer
+            save:Sauvegarder
+            background:Background
+
+        classement:
+            suffix:
+                first:er
+                second:ème
+                third:ème
+                other:ème
+
+            title:Classement
+            level:Niveau
+
+        menu_in_game:
+            add-on:add-on
+            add-ons:add-ons
+
+            cosmetic:cosmetique
+            cosmetics:cosmetiques
+
+            go_to_classement:Voir le classement
+            go_to_add-ons:Voir les add-ons
+            go_to_shop:Voir le shop
+
+        main_menu:
+            client_settings:Client
+                emoji:⚙
+            add_ons:Add-ons
+                emoji:➕
+            texture_editor:Discord
+                emoji:💬
+            shop:Boutique
+                emoji:🛒
+
+        login_manager:
+            no_login:Aucun mot de passe
+
+        alpha:
+            alpha_alert:Ceci est en alpha et vous n'êtes pas un alpha testeur...
+            alpha_become:Pour devenir un alpha testeur, cliquez sur ce bouton:
+            alpha_join:Rejoindre l'ALPHA
+
+        salwyrr_settings:
+            title:§6Salwyrr§eLauncher §fParamètres
+            preview:Preview
+            category:
+                keymod:Affichage des touches
+                notifications:Notifications
+                cps:CPS limité
+                chat:Chat
+                sword_block:Animation de la parade
+                boss_bar:Vie de boss
+                reach_display:Affichage de la distance de frappe
+                fps:Affichage des FPS
+                particle:Particules
+                radio:Radio
+                music:Musique
+                crosshair:Curseur
+                compass:Direction HUD
+                item_physics:Item Physics
+                toggle_sprint:Toggle Sprint
+                toggle_sneak:Toggle Sneak
+                toggle_walk:Toggle Walk
+                sky:Ciel personnalisé
+                auto_merci:Auto /merci
+                tnt:Décompte de la TnT
+                language:Langage
+                motion_blur:Flou de mouvement
+                scoreboard:Scoreboard
+                armorhud:Armor HUD
+                potionhud:Potion HUD
+                block_overlay:Block Overlay
+                auto_login:Auto Login
+                mumble_link:Mumble Link
+            description:
+                keymod:Affiche les interactions avec le clavier et la souris
+                notifications:Affiche les notifications du Salwyrr Launcher
+                cps:Permet de bloquer ses clicks lorsqu'ils dépassent une certaine limite
+                chat:Style du chat
+                sword_block:Animation de l'épée
+                boss_bar:Style de la barre de vie d'un boss
+                reach_display:Affiche la distance du dernier coup donné
+                fps:Affiche le compteur d'image par secondes
+                particle:Style des particules de combat
+                radio:Joue de la musique via la radio
+                music:Joue de la musique via des fichiers mp3
+                crosshair:Change le style du curseur
+                compass:Affichage de la direction
+                item_physics:Style des items lancé
+                toggle_sprint:Maintiens automatique du sprint
+                toggle_sneak:Maintiens automatique du sneak
+                toggle_walk:Maintiens automatique de la marche
+                sky:Style du ciel
+                auto_merci:Envoi automatique d'un /merci
+                tnt:Style du compteur de TnT
+                language:Changement de langue
+                motion_blur:Effet de flou de mouvement
+                scoreboard:Affichage du Scoreboard
+                armorhud:Affichage de la durabilité de l'armure
+                potionhud:Affichage des effets de potion
+                block_overlay:Modification des contours des blocs
+                auto_login:Gestion des mots de passe des serveurs
+                mumble_link:Permet l'utilisation du vocal en fonction de la position avec le logiciel Mumble
+            music:
+                volume:Volume
+                pause:Pause
+                not_found:§cAucun fichier mp3 trouvé dans le dossier §bmusique du .Salwyrr
+                tip_sub_folder:§eAstuce: Vous pouvez créer des sous-dossiers
+            cps:
+                max_left:CPS gauche max
+                max_right:CPS droit max
+            notification:
+                example:
+                    ask:Voulez vous un autre exemple ?
+                    title:§6Un autre §fexemple !
+                funcraft:
+                    friends:Funcraft demande d'ami
+                    groups:Funcraft demande de groupe
+            particle:
+                amount:Taux
+                rainbow_speed:Vitesse du rainbow
+            compass:
+                background:Fond
+                shadow:Ombre
+            sky:
+                time:Heure
+                speed:Vitesse
+
+        add_on:
+            doc:
+                title:§6Add-on §eCreator §fDocumentation
+            creator:
+                create_new:Créer un add-on
+                category:
+                    event:Evenement
+                    display:Affichage
+                    chat:Chat
+                    controle:Controle
+                    variable:Variable
+                    value:Valeur
+                    world:Monde
+                    render:Rendu
+                    save:Sauvegarde
+                    settings:Paramètres
+                blocks:
+                    event:
+                        on_start:Au lancement de l'add-on
+                        on_left_click:Au clique gauche
+                        on_right_click:Au clique droit
+                        on_key_down:A l'appui de la touche
+                        on_key_up:Au relâchement de la touche
+                        on_tick:A chaque tick
+                        on_display:A l'affichage
+                        on_render:Au rendu
+                        on_message_receive:A la réception d'un message
+                        on_send_message:A l'envoi d'un message
+                    variable:
+                        variable:Variable
+                        increment:Augmenter
+                        round:Arrondir
+                        starts_with:Commence par
+                        contains:Contient
+                        replace:Remplacer
+                        to_lower_case:Mettre en minuscule
+                        substring_from_start:Rogner depuis le début
+                        substring_from_end:Rogner depuis la fin
+                    render:
+                        item_3d_render:Rendu d'item 3D
+                    display:
+                        draw_rectangle:Dessiner un rectangle
+                        draw_text:Dessiner un texte
+                        draw_centered_text:Dessiner un texte centré
+                    chat:
+                        display_message:Afficher le message
+                        display_message_in:Afficher le message dans
+                        player_send_message:Envoi du message
+                        delete_message:Supprimer le message
+                        cancel_send:Annuler l'envoi du message
+                    controle:
+                        if:Si
+                        else:Sinon
+                        end:Fin
+                        create_method:Créer l'évenement
+                        call_metod:Appeler l'évenement
+                    value:
+                        player_name:Nom du joueur
+                        block_id_under_player:ID du bloc sous le joueur
+                        player_health:Vie du joueur
+                        x_player_positon:Position X du joueur
+                        y_player_positon:Position Y du joueur
+                        z_player_positon:Position Z du joueur
+                        yaw_head_player_rotation:Rotation verticale de la tête du joueur
+                        pitch_head_player_rotation:Rotation horizontale de la tête du joueur
+                        pitch_player_rotation:Rotation horizontale du joueur
+                        player_salwyrr_xp:Classement: XP du joueur
+                        player_salwyrr_level:Classement: Niveau du joueur
+                        player_salwyrr_coins:Coins du joueur
+                        screen_width:Longueur de l'écran
+                        screen_height:Largeur de l'écran
+                        last_chat_message:Dernier message du chat
+                        reach:Distance de frappe
+                        fps:FPS
+                    world:
+                        add_effect:Ajouter l'effet au joueur
+                        remove_effect:Supprimer l'effet au joueur
+                        teleport_player:Téléporter le joueur
+                        execute_command:Exécuter la commande
+                    save:
+                        save:Sauvegarder dans l'add-on
+                        get_save:Récuperer la sauvegarde de l'add-on
+                        get_global_save:Récupérer la sauvegarde globale
+
+        multiplayer:
+            account:
+                connected_in:Connecté en tant que
+                type:Type de compte
+                change:Changement de compte
+                premium:Compte Premium
+                crack:Compte gratuit
+                premium_type:Premium
+                crack_type:Gratuit
+                connect_to_your_account:Connectez vous à votre compte Minecraft
+                how_it_works:Comment ça fonctionne ?
+                select_account:Sélectionnez un compte
+                add:Ajouter
+
+
+    color:Couleur
+        black:Noir
+        blue:Bleu
+        cyan:Cyan
+        dark_gray:Gris foncé
+        gray:Gris
+        green:Vert
+        light_gray:Gris clair
+        magenta:Violet
+        orange:Orange
+        pink:Rose
+        red:Rouge
+        white:Blanc
+        yellow:Jaune
+        rainbow:Arc en ciel
+        chroma:Multicolor

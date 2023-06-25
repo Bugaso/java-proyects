@@ -1,0 +1,346 @@
+t:
+
+    discord:
+        select_account:Seleccione una cuenta para vincular a §9Discord
+        get_code:Obtenga el código de enlace
+        linked_to:Vinculado a 
+        join:Únete a nuestro Discord
+        command:Puedes usar este comando en cualquier salón de un Discord oficial de Salwyrr Laucher
+
+    playtime:Tiempo jugado
+        week:Esta semana:
+        total:Total:
+        day:
+            short:
+                monday:L
+                tuesday:M
+                wednesday:M
+                thursday:J
+                friday:V
+                saturday:S
+                sunday:D
+        
+
+    connection:
+        error:Error de conexión
+        restart:reconexión...
+
+    progress:
+        salwyrr_initialize:Salwyrr Launcher: §7initialisation
+
+    mouse:Ratón
+
+    screen:
+        get_link:Obtén el enlace
+        open_folder:Configuraciones abiertas
+        delete:Borrar
+
+    notifications:
+        screenshot:
+            saved:§aCaptura de pantalla grabada
+            open:Mostrar en carpeta
+        funcraft:
+            friend:
+                title:Solicitud de§aamistad§r:§6
+            team:
+                title:Solicitud de §egrupo§r:§6
+            game_over:
+                title:¡§fPartida terminada!
+                description:¿§aRelanzar un juego?
+        autologin:
+            toggle:¿§aQuieres activar AutoLogin?
+            update:¿§aQuieres actualizar AutoLogin?
+            login:¡§aAutoLogin efectuado!
+
+    gui:
+        copy:Copiado
+        mail:Dirección de e-mail
+        pseudo:Pseudo
+        mode:Moda
+        help:Ayuda
+        name:apellido
+        value:valor
+        duration:duración
+        level:nivel
+        message:mensaje
+        width:longitud
+        height:ancho
+        rotation:rotación
+        scale:tamaño
+        text:texto
+        number:número
+        by:por
+        in:dentro
+        of:de
+        welcome:Bienvenida
+        error:Error
+        soon:Pronto...
+        empty:Vacío
+        oops:Uy
+
+        autologin:
+            random_password:Presione [tab] para generar una contraseña segura
+            complete_login:Presione [tab] para completar el login
+
+        input:
+            password:Contraseña
+
+        button:
+            return:Regreso
+            configure:Configurar
+            style:Estilo
+            scale:Tamaño
+            toggle:Activar
+            position_x:Posición X
+            position_y:Posición Y
+            buy:Comprar
+            cancel:Anular
+            submit:Presentar
+            done:Terminar
+            accept:Aceptar
+            deny:Rechazar
+            quit:Dejar
+            delete:Suprimir
+            save:Salvaguardar
+            background:Background
+
+        classement:
+            suffix:
+                first:st
+                second:do
+                third:er
+                other:th
+
+            title:Ranking
+            level:Nivel
+
+        menu_in_game:
+            add-on:add-on
+            add-ons:add-ons
+
+            cosmetic:Cosmético
+            cosmetics:Cosméticos
+
+            go_to_classement:Ver el ranking
+            go_to_add-ons:Ver el add-ons
+            go_to_shop:Ver el shop
+
+        main_menu:
+            client_settings:Client
+                emoji:⚙
+            add_ons:Add-ons
+                emoji:➕
+            texture_editor:Discord
+                emoji:💬
+            shop:Tienda
+                emoji:🛒
+
+        login_manager:
+            no_login:ningún login
+
+        alpha:
+            alpha_alert:Este es alfa y no eres un probador alfa...
+            alpha_become:Para convertirse en un alfa tester, haga clic en este botón :
+            alpha_join:Unirse a el ALFA
+
+        salwyrr_settings:
+            title:§6Salwyrr§eLauncher §fParámetros
+            preview:Preview
+            category:
+                keymod:KeyMod
+                notifications:Notificaciones
+                cps:CPS limitado
+                chat:Chat
+                sword_block:Hit n' Block
+                boss_bar:Vida de boss
+                reach_display:Reach Display
+                fps:FPS Display
+                particle:Particle Mod
+                radio:Radio
+                music:Música
+                crosshair:Cursor
+                compass:Direction HUD
+                item_physics:Item Physics
+                toggle_sprint:Toggle Sprint
+                toggle_sneak:Toggle Sneak
+                toggle_walk:Toggle Walk
+                sky:Better Sky
+                auto_merci:Auto /merci
+                tnt:Tag TnT
+                language:lenguaje
+                motion_blur:Motion Blur
+                scoreboard:Scoreboard
+                armorhud:Armor HUD
+                potionhud:Potion HUD
+                block_overlay:Block Overlay
+                auto_login:Auto Login
+                mumble_link:Mumble Link
+            description:
+                keymod:Muestra las interacciones del teclado y el mouse.
+                notifications:Muestra notificaciones de Salwyrr Launcher
+                cps:Le permite bloquear clics cuando exceden un cierto límite
+                chat:Estilo del chat
+                sword_block:Espada de animación
+                boss_bar:El estilo de vida de un boss
+                reach_display:Muestra la distancia del último golpe
+                fps:Muestra el contador de imágenes por segundo
+                particle:Estilo de las partículas de combate
+                radio:Toca la música por la radio
+                music:Toca música a través de archivos mp3
+                crosshair:Cambia el estilo del cursor
+                compass:Visualización de dirección
+                item_physics:Estilo de los ítems lanzados
+                toggle_sprint:Mantengo automático de sprints
+                toggle_sneak:Mantengo automático de sneak
+                toggle_walk:Mantengo automático de la marcha
+                sky:Estilo del cielo
+                auto_merci:Envío automático de un /merci
+                tnt:Estilo del contador de TnT
+                language:Cambio de idioma
+                motion_blur:Motion blur effect, to add fluidity
+                scoreboard:Scoreboard display
+                armorhud:Armor durability display
+                potionhud:Potions effect display
+                block_overlay:Customize block overlay
+                auto_login:Server password manager
+                mumble_link:Allow to use positional audio with Mumble software
+            music:
+                volume:Volumen
+                pause:Pausa
+                not_found:§cNo se encontró ningún archivo mp3 en la carpeta §bmúsica del .Salwyrr
+                tip_sub_folder:§eTruco: Puede crear subcarpetas
+            cps:
+                max_left:CPS izquierda máximo
+                max_right:CPS derecho máximo
+            notification:
+                example:
+                    ask:¿Quieres otro ejemplo?
+                    title:¡§6Otro §fejemplo!
+                funcraft:
+                    friends:Funcraft solicitud de amistad
+                    groups:Funcraft solicitud grupal
+            particle:
+                amount:Tasa
+                rainbow_speed:Velocidad del rainbow
+            compass:
+                background:Fondo
+                shadow:Sombra
+            sky:
+                time:Hora
+                speed:Velocidad
+
+        add_on:
+            doc:
+                title:§6Add-on §eCreador §fDocumentación
+            creator:
+                create_new:Crear un add-on
+                category:
+                    event:Evento
+                    display:Visualización
+                    chat:Chat
+                    controle:Control
+                    variable:Variable
+                    value:Valor
+                    world:Mundo
+                    render:Hecho
+                    save:Salvaguardia
+                    settings:Parámetros
+                blocks:
+                    event:
+                        on_start:En el lanzamiento de l'add-on
+                        on_left_click:Clic izquierdo
+                        on_right_click:Clic derecho
+                        on_key_down:Al presionar la tecla
+                        on_key_up:Cuando se suelta el botón
+                        on_tick:En cada tic
+                        on_display:La pantalla
+                        on_render:A render
+                        on_message_receive:Al recibir un mensaje
+                        on_send_message:Al enviar un mensaje
+                    variable:
+                        variable:Variable
+                        increment:Aumento
+                        round:Redondear
+                        starts_with:Comienza por
+                        contains:Contiene
+                        replace:Reemplazar
+                        to_lower_case:Poner en minúscula
+                        substring_from_start:Recortar desde el principio
+                        substring_from_end:Recortar desde el final
+                    render:
+                        item_3d_render:Render d'item 3D
+                    display:
+                        draw_rectangle:Dibujar un rectángulo
+                        draw_text:Dibujar texto
+                        draw_centered_text:Dibujar texto centrado
+                    chat:
+                        display_message:Mostrar el mensaje
+                        display_message_in:Mostrar el mensaje en
+                        player_send_message:Enviando el mensaje
+                        delete_message:Eliminar mensaje
+                        cancel_send:Cancelar el envío del mensaje
+                    controle:
+                        if:Si
+                        else:Sino
+                        end:Final
+                        create_method:Crea el evento
+                        call_metod:Llamar al evento
+                    value:
+                        player_name:Nombre del jugador
+                        block_id_under_player:ID del bloque debajo del jugador
+                        player_health:La vida del jugador
+                        x_player_positon:Posición X del jugador
+                        y_player_positon:Posición Y del jugador
+                        z_player_positon:Posición Z del jugador
+                        yaw_head_player_rotation:Rotación vertical de la cabeza del jugador
+                        pitch_head_player_rotation:Rotación horizontal de la cabeza del jugador
+                        pitch_player_rotation:Rotación horizontal del jugador
+                        player_salwyrr_xp:Ranking: XP del jugador
+                        player_salwyrr_level:Ranking: Nivel de jugador
+                        player_salwyrr_coins:squinas del jugador
+                        screen_width:Longitud de la pantalla
+                        screen_height:Ancho de pantalla
+                        last_chat_message:Último mensaje du chat
+                        reach:Distancia de mecanografía
+                        fps:FPS
+                    world:
+                        add_effect:Añadir efecto al jugador
+                        remove_effect:Eliminar efecto al jugador
+                        teleport_player:Transportar al jugador
+                        execute_command:Ejecutar el comando
+                    save:
+                        save:Salvaguardar en l'add-on
+                        get_save:Recuperar la copia de seguridad de l'add-on
+                        get_global_save:Recuperar copia de seguridad global
+
+        multiplayer:
+            account:
+                connected_in:Conectado como
+                type:Tipo de cuenta
+                change:Cambio de cuenta
+                premium:Cuenta Premium
+                crack:Cuenta gratis
+                premium_type:Premium
+                crack_type:Gratis
+                connect_to_your_account:Inicia sesión en tu cuenta Minecraft
+                how_it_works:¿Cómo funciona?
+                select_account:Selecciona una cuenta
+                add:Añadir
+
+
+    color:Color
+        black:Negro
+        blue:Azul
+        cyan:Cian
+        dark_gray:Gris oscuro
+        gray:Gris
+        green:Verde
+        light_gray:Gris claro
+        magenta:Púrpura
+        orange:Naranja
+        pink:Rosa
+        red:Rojo
+        white:Blanco
+        yellow:Amarillo
+        rainbow:Arco iris
+        chroma:Multicolore
