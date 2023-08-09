@@ -7,15 +7,15 @@ public class Main {
     y se moja. Las clases a hacer del juego son las siguientes:
      */
     public static void main(String[] args) {
-        Jugador[] Ps= new Jugador[2];
+        Jugador[] Ps = new Jugador[2];
         Ps[0] = new Jugador(32131, "Juan", false);
         Ps[1] = new Jugador(32132, "Enzo", false);
         RevolverAgua R8 = new RevolverAgua();
         Juego Play = new Juego();
         R8.llenarRevolver();
         Play.llenarJuego(Ps[0], Ps[1], R8);
-        System.out.println("Primer posicion del revolver"+R8.toString());
-
+        System.out.println("Primer posicion del revolver" + R8.toString());
+    }
         Play.ronda();
 
         System.out.println(Ps[0].isMojado());
