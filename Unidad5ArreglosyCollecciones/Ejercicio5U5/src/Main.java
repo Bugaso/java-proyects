@@ -13,7 +13,7 @@ public class Main {
 
                 System.out.print("["+matriz[i][j]+"]");
             }
-            System.out.println("");
+            System.out.println(" ");
         }
 
         System.out.println("Traspuesta de la matriz");
@@ -36,10 +36,10 @@ public class Main {
             for (int j=0;j<3;j++){
                 System.out.print("["+matriz[i][j]+"]");
             }
-            System.out.println("");
+            System.out.println(" ");
         }
 
-        System.out.println("");
+        System.out.println(" ");
 
         if(count==3){
             System.out.println("La matriz es antisimetrica");
