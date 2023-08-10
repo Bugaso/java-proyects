@@ -1,4 +1,4 @@
-import java.util.Random;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Main {
         int[][] matriz = new int[3][3];
 
         matriz[0][0] = 0 ; matriz[1][1] = 0; matriz[2][2] = 0;
-        matriz[0][1] = -2; matriz[1][0] = 2; matriz[0][2] = -4; matriz[2][0] = -4; matriz[1][2] = 2; matriz[2][1] = -2;
+        matriz[0][1] = -2; matriz[1][0] = 2; matriz[0][2] = 4; matriz[2][0] = -4; matriz[1][2] = 2; matriz[2][1] = -2;
 
         for (int i=0;i<3;i++){
             for (int j=0;j<3;j++){
