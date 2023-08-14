@@ -15,7 +15,7 @@ public class Main {
         R8.llenarRevolver();
         Play.llenarJuego(Ps[0], Ps[1], R8);
         System.out.println("Primer posicion del revolver" + R8.toString());
-    }
+
         Play.ronda();
 
         System.out.println(Ps[0].isMojado());
