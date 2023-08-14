@@ -1,3 +1,5 @@
+import javax.swing.*;
+import javax.swing.plaf.PanelUI;
 import java.util.Scanner;
 
 public class Main {
@@ -9,7 +11,10 @@ public class Main {
         un cuadrado por teclado y determine si este cuadrado es mágico o no. El programa deberá
         comprobar que los números introducidos son correctos, es decir, están entre el 1 y el 9.
          */
+        JPanel Panel = new JPanel();
+        Panel.setVisible(true);
 
+        Panel.setSize(800,400);
         Scanner leer = new Scanner(System.in);
 
         int[][] Matriz = new int[3][3];
@@ -57,6 +62,8 @@ public class Main {
         }else{
             System.out.println("La matriz no es un cuadrado magico...");
         }
+
+
     }
 
 }
